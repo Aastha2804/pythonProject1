@@ -1,0 +1,9 @@
+print ("Welcome to SBI")
+print("s-savings account, c - current account")
+option = input("enter any 1 of the above option:")
+if option == "s".lower():
+    print("welcome to savings account")
+elif option == "c".lower():
+    print("welcome to current account")
+else:
+    print("invalid option!!")
